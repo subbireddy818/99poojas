@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+.dark ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: #D97706;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B45309;
+}
+
+/* Subtle sacred pattern background */
+.sacred-pattern {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(#F59E0B 0.65px, transparent 0.65px), radial-gradient(#F59E0B 0.65px, #FAF7F2 0.65px);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+}
+
+.dark .sacred-pattern {
+  background-color: #0B1120;
+  background-image: radial-gradient(#D97706 0.65px, transparent 0.65px), radial-gradient(#D97706 0.65px, #0B1120 0.65px);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+}
