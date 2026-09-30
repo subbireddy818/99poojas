@@ -47,7 +47,7 @@ export default function Navbar({
   return (
     <header className="sticky top-0 z-40 w-full transition-all duration-300">
       {/* Top Notification & Contact Bar */}
-      <div className="bg-gradient-to-r from-vermilion-700 via-vermilion-600 to-sacred-700 text-white text-xs sm:text-sm py-2 px-4 shadow-sm">
+      <div className="bg-gradient-to-r from-vermilion-700 via-vermilion-600 to-sacred-700 text-white text-xs sm:text-sm py-1.5 px-4 shadow-sm">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
           {/* Left: Contact Details */}
           <div className="flex items-center gap-4 sm:gap-6">
@@ -77,7 +77,7 @@ export default function Navbar({
           <div className="relative">
             <button 
               onClick={() => setLocationDropdownOpen(!locationDropdownOpen)}
-              className="flex items-center gap-1.5 bg-black/20 hover:bg-black/30 px-2.5 py-1 rounded-full text-xs font-medium transition-all text-amber-100"
+              className="flex items-center gap-1.5 bg-black/20 hover:bg-black/30 px-2.5 py-0.5 rounded-full text-xs font-medium transition-all text-amber-100"
             >
               <MapPin className="w-3 h-3 text-amber-300" />
               <span className="truncate max-w-[130px] sm:max-w-[170px]">{selectedLocation.split('(')[0]}</span>
@@ -118,25 +118,25 @@ export default function Navbar({
       {/* Main Nav */}
       <nav className={`w-full transition-all duration-300 ${
         isScrolled 
-          ? 'bg-white/95 dark:bg-slate-900/95 backdrop-blur-md shadow-md py-3' 
-          : 'bg-white dark:bg-slate-900 py-4 shadow-sm border-b border-amber-100 dark:border-slate-800'
+          ? 'bg-white/95 dark:bg-slate-900/95 backdrop-blur-md shadow-md py-1 sm:py-1.5' 
+          : 'bg-white dark:bg-slate-900 py-1.5 sm:py-2 shadow-sm border-b border-amber-100 dark:border-slate-800'
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-4">
           
           {/* Brand Logo */}
           <button 
             onClick={() => setActiveTab('home')}
-            className="flex items-center gap-3 group focus:outline-none py-1"
+            className="flex items-center gap-2 group focus:outline-none py-0"
           >
             <img 
               src={darkMode ? siteConfig.logoDark : siteConfig.logo} 
               alt={siteConfig.brandName} 
-              className="h-14 sm:h-16 md:h-20 w-auto max-h-[85px] object-contain transition-transform duration-300 group-hover:scale-105 filter drop-shadow-sm"
+              className="h-10 sm:h-12 w-auto max-h-[50px] object-contain transition-transform duration-300 group-hover:scale-105 filter drop-shadow-sm"
             />
           </button>
 
           {/* Desktop Nav Links */}
-          <div className="hidden md:flex items-center gap-1 lg:gap-2">
+          <div className="hidden md:flex items-center gap-1 lg:gap-1.5">
             {[
               { id: 'home', label: 'Home' },
               { id: 'categories', label: 'Categories' },
@@ -153,7 +153,7 @@ export default function Navbar({
                     setActiveTab(tab.id);
                   }
                 }}
-                className={`px-3.5 py-2 rounded-full text-sm font-semibold transition-all ${
+                className={`px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold transition-all ${
                   activeTab === tab.id
                     ? 'text-vermilion-600 dark:text-sacred-400 bg-amber-50 dark:bg-slate-800'
                     : 'text-slate-600 dark:text-slate-300 hover:text-vermilion-600 dark:hover:text-sacred-400 hover:bg-slate-50 dark:hover:bg-slate-800/50'
@@ -165,25 +165,25 @@ export default function Navbar({
           </div>
 
           {/* Action Icons */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-2">
             {/* Search Trigger */}
             <button
               onClick={onOpenSearch}
-              className="p-2.5 rounded-full text-slate-600 dark:text-slate-300 hover:text-vermilion-600 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors"
+              className="p-2 rounded-full text-slate-600 dark:text-slate-300 hover:text-vermilion-600 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors"
               title="Search poojas, homams & rituals"
             >
-              <Search className="w-5 h-5" />
+              <Search className="w-4 h-4 sm:w-4.5 sm:h-4.5" />
             </button>
 
             {/* Wishlist Button */}
             <button
               onClick={onOpenWishlist}
-              className="relative p-2.5 rounded-full text-slate-600 dark:text-slate-300 hover:text-vermilion-600 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors"
+              className="relative p-2 rounded-full text-slate-600 dark:text-slate-300 hover:text-vermilion-600 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors"
               title="Saved Wishlist"
             >
-              <Heart className="w-5 h-5" />
+              <Heart className="w-4 h-4 sm:w-4.5 sm:h-4.5" />
               {wishlistCount > 0 && (
-                <span className="absolute -top-0.5 -right-0.5 bg-vermilion-600 text-white text-[10px] font-bold w-5 h-5 rounded-full flex items-center justify-center border-2 border-white dark:border-slate-900 animate-bounce">
+                <span className="absolute -top-0.5 -right-0.5 bg-vermilion-600 text-white text-[10px] font-bold w-4.5 h-4.5 rounded-full flex items-center justify-center border-2 border-white dark:border-slate-900 animate-bounce">
                   {wishlistCount}
                 </span>
               )}
@@ -192,27 +192,27 @@ export default function Navbar({
             {/* Dark Mode Toggle */}
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className="p-2.5 rounded-full text-slate-600 dark:text-slate-300 hover:text-sacred-600 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors"
+              className="p-2 rounded-full text-slate-600 dark:text-slate-300 hover:text-sacred-600 hover:bg-amber-50 dark:hover:bg-slate-800 transition-colors"
               title={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
             >
-              {darkMode ? <Sun className="w-5 h-5 text-amber-400" /> : <Moon className="w-5 h-5 text-slate-600" />}
+              {darkMode ? <Sun className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-amber-400" /> : <Moon className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-slate-600" />}
             </button>
 
             {/* Login / Devotee Portal */}
             <button
               onClick={onOpenLogin}
-              className="hidden sm:flex items-center gap-2 bg-gradient-to-r from-vermilion-600 to-sacred-600 hover:from-vermilion-700 hover:to-sacred-700 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-sm hover:shadow transition-all"
+              className="hidden sm:flex items-center gap-1.5 bg-gradient-to-r from-vermilion-600 to-sacred-600 hover:from-vermilion-700 hover:to-sacred-700 text-white px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-sm hover:shadow transition-all"
             >
-              <User className="w-4 h-4" />
+              <User className="w-3.5 h-3.5" />
               <span>Login / Account</span>
             </button>
 
             {/* Mobile Hamburger Menu */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
+              className="md:hidden p-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
         </div>
