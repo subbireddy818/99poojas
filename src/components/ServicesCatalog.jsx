@@ -1,6 +1,8 @@
 'use client';
 
 import React, { useState, useMemo } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { 
   Search, 
   Heart, 
@@ -8,7 +10,7 @@ import {
   Star, 
   Filter, 
   ChevronRight, 
-  Sparkles,
+  Sparkles, 
   SlidersHorizontal,
   Check,
   CalendarCheck
@@ -175,7 +177,7 @@ export default function ServicesCatalog({
                 className="group flex flex-col justify-between bg-white dark:bg-slate-800/90 rounded-2xl overflow-hidden border border-amber-100/80 dark:border-slate-700/60 hover:border-sacred-400 hover:shadow-sacred transition-all duration-300 hover:-translate-y-1"
               >
                 {/* Image Container */}
-                <div className="relative h-48 w-full overflow-hidden bg-amber-50 dark:bg-slate-900">
+                <Link href={`/service-detail/${service.id}`} className="relative h-48 w-full overflow-hidden bg-amber-50 dark:bg-slate-900 block cursor-pointer">
                   <img
                     src={service.image}
                     alt={service.name}
@@ -192,6 +194,7 @@ export default function ServicesCatalog({
                   {/* Wishlist Button */}
                   <button
                     onClick={(e) => {
+                      e.preventDefault();
                       e.stopPropagation();
                       onToggleWishlist(service.id);
                     }}
@@ -211,18 +214,18 @@ export default function ServicesCatalog({
                     <span>{service.rating.toFixed(1)}</span>
                     <span className="text-slate-300 font-normal">({service.reviewsCount})</span>
                   </div>
-                </div>
+                </Link>
 
                 {/* Content */}
                 <div className="p-5 flex flex-col flex-grow justify-between">
                   <div>
                     {/* Title */}
-                    <h3 
-                      onClick={() => onSelectService(service)}
-                      className="font-bold text-base sm:text-lg text-slate-900 dark:text-white group-hover:text-vermilion-600 dark:group-hover:text-sacred-400 transition-colors line-clamp-1 cursor-pointer"
+                    <Link 
+                      href={`/service-detail/${service.id}`}
+                      className="font-bold text-base sm:text-lg text-slate-900 dark:text-white group-hover:text-vermilion-600 dark:group-hover:text-sacred-400 transition-colors line-clamp-1 block"
                     >
                       {service.name}
-                    </h3>
+                    </Link>
 
                     {/* Description */}
                     <p className="mt-1.5 text-xs text-slate-600 dark:text-slate-400 line-clamp-2 leading-relaxed">
@@ -252,12 +255,12 @@ export default function ServicesCatalog({
                     </div>
 
                     <div className="flex items-center gap-1.5">
-                      <button
-                        onClick={() => onSelectService(service)}
-                        className="px-3 py-2 rounded-xl text-xs font-semibold text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
+                      <Link
+                        href={`/service-detail/${service.id}`}
+                        className="px-3 py-2 rounded-xl text-xs font-semibold text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors inline-block"
                       >
                         Details
-                      </button>
+                      </Link>
 
                       <button
                         onClick={() => onBookService(service)}

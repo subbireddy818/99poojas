@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import Navbar from '../components/Navbar';
 import HeroSlider from '../components/HeroSlider';
 import CategoriesSection from '../components/CategoriesSection';
@@ -18,6 +19,7 @@ import Footer from '../components/Footer';
 import { hyderabadLocations, services, categories, siteConfig } from '../data/poojasData';
 
 export default function Home() {
+  const router = useRouter();
   const [darkMode, setDarkMode] = useState(false);
   const [activeTab, setActiveTab] = useState('home'); // 'home', 'categories', 'services', 'about'
   const [activeCategory, setActiveCategory] = useState('all');
@@ -134,10 +136,7 @@ export default function Home() {
             <HeroSlider
               onSelectCategory={handleSelectCategory}
               onExploreServices={handleExploreServices}
-              onSelectServiceById={(id) => {
-                const s = services.find(item => item.id === id);
-                if (s) setDetailService(s);
-              }}
+              onSelectServiceById={(id) => router.push(`/service-detail/${id}`)}
             />
 
             <CategoriesSection
@@ -150,7 +149,7 @@ export default function Home() {
               setActiveCategory={setActiveCategory}
               searchQuery={searchQuery}
               setSearchQuery={setSearchQuery}
-              onSelectService={(service) => setDetailService(service)}
+              onSelectService={(service) => router.push(`/service-detail/${service.id}`)}
               onBookService={(service) => setBookingService(service)}
               wishlist={wishlist}
               onToggleWishlist={handleToggleWishlist}
