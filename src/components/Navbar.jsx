@@ -118,20 +118,20 @@ export default function Navbar({
       {/* Main Nav */}
       <nav className={`w-full transition-all duration-300 ${
         isScrolled 
-          ? 'bg-white/95 dark:bg-slate-900/95 backdrop-blur-md shadow-md py-1 sm:py-1.5' 
-          : 'bg-white dark:bg-slate-900 py-1.5 sm:py-2 shadow-sm border-b border-amber-100 dark:border-slate-800'
+          ? 'bg-white/95 dark:bg-slate-900/95 backdrop-blur-md shadow-md py-1' 
+          : 'bg-white dark:bg-slate-900 py-1 sm:py-1.5 shadow-sm border-b border-amber-100 dark:border-slate-800'
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-4">
           
           {/* Brand Logo */}
           <button 
             onClick={() => setActiveTab('home')}
-            className="flex items-center gap-2 group focus:outline-none py-0"
+            className="flex items-center gap-2 group focus:outline-none py-0 my-0.5"
           >
             <img 
               src={darkMode ? siteConfig.logoDark : siteConfig.logo} 
               alt={siteConfig.brandName} 
-              className="h-10 sm:h-12 w-auto max-h-[50px] object-contain transition-transform duration-300 group-hover:scale-105 filter drop-shadow-sm"
+              className="h-12 sm:h-14 md:h-16 w-auto max-h-[64px] object-contain transition-transform duration-300 group-hover:scale-105 filter drop-shadow-sm"
             />
           </button>
 
