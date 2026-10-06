@@ -105,7 +105,7 @@ export default function AboutUsPage() {
           <div className="lg:col-span-5 relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800">
               <img
-                src="https://99poojas.in/storage/116/02.jpg"
+                src="https://images.unsplash.com/photo-1545232979-fbf67406a41f?w=800&auto=format&fit=crop&q=80"
                 alt="Vedic Blessings"
                 className="w-full h-80 object-cover"
               />

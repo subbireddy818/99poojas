@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" width="280" height="80">
+  <defs>
+    <linearGradient id="goldGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="redGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F87171" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sacred Shatkona (Hexagram Yantra) -->
+  <g transform="translate(42, 40)">
+    <polygon points="0,-28 24,14 -24,14" fill="none" stroke="url(#redGradDark)" stroke-width="3.5" stroke-linejoin="round" />
+    <polygon points="0,28 24,-14 -24,-14" fill="none" stroke="url(#redGradDark)" stroke-width="3.5" stroke-linejoin="round" />
+    <circle cx="0" cy="0" r="10" fill="none" stroke="url(#goldGradDark)" stroke-width="2" />
+    <g transform="scale(0.85)" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="square" fill="none">
+      <path d="M0,-8 L0,8 M-8,0 L8,0 M0,-8 L6,-8 M8,0 L8,6 M0,8 L-6,8 M-8,0 L-8,-6" />
+      <circle cx="3" cy="-3" r="1" fill="#F59E0B" stroke="none" />
+      <circle cx="3" cy="3" r="1" fill="#F59E0B" stroke="none" />
+      <circle cx="-3" cy="3" r="1" fill="#F59E0B" stroke="none" />
+      <circle cx="-3" cy="-3" r="1" fill="#F59E0B" stroke="none" />
+    </g>
+  </g>
+
+  <!-- Typography: 99Poojas -->
+  <g transform="translate(86, 48)">
+    <text font-family="'Cinzel', 'Playfair Display', Georgia, serif" font-weight="900" font-size="34" letter-spacing="-0.5" fill="#FFFFFF">
+      99<tspan fill="#F59E0B">Poojas</tspan>
+    </text>
+    <text x="2" y="16" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="8.5" letter-spacing="2.5" fill="#FDE68A">
+      DOORSTEP VEDIC PUROHITS
+    </text>
+  </g>
+</svg>

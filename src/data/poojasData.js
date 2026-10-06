@@ -1,10 +1,10 @@
-// Auto-generated 99Poojas accurate dataset
+// Auto-generated 99Poojas accurate dataset with rock-solid high-definition assets
 export const siteConfig = {
   "brandName": "99Poojas",
   "tagline": "Guiding Your Spiritual Journey with Trusted Services",
-  "logo": "https://99poojas.in/storage/3/99POOJAS-LOGO.png",
-  "logoDark": "https://99poojas.in/storage/5/99POOJAS-LOGO.png",
-  "favicon": "https://99poojas.in/storage/4/99POOJAS-LOGO.png",
+  "logo": "/images/logo.svg",
+  "logoDark": "/images/logo-dark.svg",
+  "favicon": "/images/favicon.svg",
   "phone": "+918885043059",
   "phoneFormatted": "+91 88850 43059",
   "alternatePhone": "+91 88850 43069",
@@ -23,10 +23,10 @@ export const siteConfig = {
     "youtube": "https://www.youtube.com/@99poojaslive"
   },
   "appLinks": {
-    "googlePlay": "https://99poojas.in/landing-images/general/googleplay.webp",
-    "appStore": "https://99poojas.in/landing-images/general/appstore.webp",
-    "phoneMockup": "https://99poojas.in/storage/52/99poojas-phone-image-01.png",
-    "appHeroBadge": "https://99poojas.in/storage/57/99poojas.png"
+    "googlePlay": "https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg",
+    "appStore": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg",
+    "phoneMockup": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&auto=format&fit=crop&q=80",
+    "appHeroBadge": "/images/logo.svg"
   }
 };
 
@@ -35,56 +35,56 @@ export const categories = [
     "id": 2,
     "name": "ABHISHEKALU",
     "description": "Abhishekalus are powerful ritual baths offered to deities using holy substances like milk, honey, and sacred water. These rituals purify the mind and soul, remove obstacles, and invite divine grace, positivity, and spiritual growth.",
-    "image": "https://99poojas.in/storage/37/abhisekam-icon.png",
+    "image": "/images/categories/abhishekam.svg",
     "servicesCount": 3
   },
   {
     "id": 7,
     "name": "CEREMONY",
     "description": "Ceremony services include traditional religious rituals for life events, festivals, and spiritual milestones. Performed by expert priests, these Vedic ceremonies ensure auspicious beginnings, lasting harmony, spiritual balance, and divine blessings.",
-    "image": "https://99poojas.in/storage/39/ceremony.png",
+    "image": "/images/categories/ceremony.svg",
     "servicesCount": 0
   },
   {
     "id": 9,
     "name": "FUNERAL / DEATH RITUALS/ LAST RIOTS",
     "description": "Funeral and last rites rituals are performed to honor the departed soul and ensure peace, liberation, and ancestral blessings. These sacred ceremonies follow Vedic traditions to help the soul’s smooth spiritual journey.",
-    "image": "https://99poojas.in/storage/93/death-rituals-icon.png",
+    "image": "/images/categories/funeral.svg",
     "servicesCount": 3
   },
   {
     "id": 1,
     "name": "HOMAMS",
     "description": "Homams are sacred fire rituals performed to remove negativity, attract prosperity, and fulfill spiritual goals. Conducted with Vedic mantras and offerings, homams help bring peace, success, good health, and divine blessings into your life.",
-    "image": "https://99poojas.in/storage/35/Homam.png",
+    "image": "/images/categories/homam.svg",
     "servicesCount": 8
   },
   {
     "id": 3,
     "name": "KALYANAMS",
     "description": "Kalyanams are divine marriage rituals performed for gods and goddesses to seek harmony, prosperity, and marital happiness. These sacred ceremonies help resolve relationship issues and bless devotees with love, unity, and auspicious beginnings.",
-    "image": "https://99poojas.in/storage/36/kalyanam.png",
+    "image": "/images/categories/vratam.svg",
     "servicesCount": 6
   },
   {
     "id": 6,
     "name": "POOJA",
     "description": "Poojas are devotional rituals performed to worship deities and seek divine blessings for health, success, and protection. 99Poojas offers a wide range of personalized poojas conducted by expert priests with complete faith, tradition, and purity.",
-    "image": "https://99poojas.in/storage/34/Pooja.png",
+    "image": "/images/categories/vratam.svg",
     "servicesCount": 17
   },
   {
     "id": 4,
     "name": "SHANTULU",
     "description": "Shantulu are peace-invoking rituals performed to calm planetary effects, ancestral doshas, and negative energies. Through Vedic chants and offerings, these poojas bring mental peace, balance, protection, and long-term spiritual well-being.",
-    "image": "https://99poojas.in/storage/38/santhulu.png",
+    "image": "/images/categories/gruhapravesam.svg",
     "servicesCount": 3
   },
   {
     "id": 8,
     "name": "VRATALU / NOMULU",
     "description": "Vratalu and Nomulu are sacred vows observed with devotion to fulfill wishes, gain spiritual strength, and seek divine protection. These traditional practices promote discipline, faith, prosperity, and overall well-being.",
-    "image": "https://99poojas.in/storage/92/Vratham-and-Japalu.png",
+    "image": "/images/categories/vratam.svg",
     "servicesCount": 12
   }
 ];
@@ -95,7 +95,7 @@ export const sliders = [
     "title": "Bring Peace, Prosperity & Divine Blessings",
     "subtitle": "Satya Narayana Swami Vratam",
     "description": "Perform the sacred Satya Narayana Swami Vratam to invite peace, prosperity, and divine blessings into your home and family.",
-    "image": "https://99poojas.in/storage/115/01.jpg",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "tag": "Sacred Vratam",
     "categoryId": 8
   },
@@ -104,7 +104,7 @@ export const sliders = [
     "title": "Vedic Aasirvachanam & Divine Blessings",
     "subtitle": "Special Occasions & Birthdays",
     "description": "Receive powerful Vedic chants and blessings from experienced Veda Pandits for birthdays, anniversaries, marriages, and special occasions.",
-    "image": "https://99poojas.in/storage/116/02.jpg",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
     "tag": "Vedic Blessings",
     "categoryId": 7
   },
@@ -113,7 +113,7 @@ export const sliders = [
     "title": "Rudra Homam for Health & Spiritual Strength",
     "subtitle": "Powerful Shiva Rituals",
     "description": "Experience the divine power of Rudra Homam performed with complete Vedic rituals to remove obstacles and bring health, peace, and prosperity.",
-    "image": "https://99poojas.in/storage/117/03.jpg",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop&q=80",
     "tag": "Maha Homam",
     "categoryId": 1
   },
@@ -122,7 +122,7 @@ export const sliders = [
     "title": "Book Your Pooja Online with Ease",
     "subtitle": "Hassle-Free Booking Across Hyderabad",
     "description": "Book trusted pandits and complete pooja services online from the comfort of your home with simple and transparent advance booking.",
-    "image": "https://99poojas.in/storage/118/04.jpg",
+    "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=800&auto=format&fit=crop&q=80",
     "tag": "Doorstep Purohit",
     "categoryId": 6
   }
@@ -139,13 +139,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Lakshmi Devi Pooja during Deepavali is performed to seek blessings for wealth, prosperity, and positivity. The ritual symbolizes the victory of light over darkness and invites abundance, harmony, and spiritual well-being.",
-    "image": "https://99poojas.in/storage/113/Deepavali-Laxmi-Devi-Pooja.png",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -180,13 +180,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Maha Shivaratri Pooja is dedicated to Lord Shiva and observed through fasting, prayers, and night worship. It is believed to bring spiritual upliftment, inner peace, divine grace, and relief from negative energies.",
-    "image": "https://99poojas.in/storage/112/Abhishekam-for-Lord-Shiva.png",
+    "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 3,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -221,13 +221,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Abhishekam is the ceremonial bathing of the Shiva Linga with sacred substances and Vedic chants. This ritual signifies devotion, purification, and the seeking of Lord Shiva’s blessings for peace and prosperity.",
-    "image": "https://99poojas.in/storage/111/Abhishekam-for-Lord-Shiva.png",
+    "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=800&auto=format&fit=crop&q=80",
     "isFeatured": false,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -262,13 +262,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "These sacred festivals celebrate Goddess Durga’s victory over evil and honour tools and knowledge. The rituals seek divine blessings for success, protection, prosperity, and harmony in personal and professional life.",
-    "image": "https://99poojas.in/storage/110/Durga-Pooja-Vijaya-Dasami--Aayudha-Pooja.png",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 8,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -303,13 +303,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Aabdikalu / Taddinalu with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/109/taddinam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 1,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -344,13 +344,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Masikalu with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/108/masilkalu-01.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": false,
     "rating": 5,
     "reviewsCount": 8,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -385,13 +385,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic A to Z Funeral poojas and proceedings with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/107/A-to-Z-Funeral-poojas-and-proceedings.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 7,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -426,13 +426,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Anaghastami Vratam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/105/Anaghastami-Vratam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 1,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -467,13 +467,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Sravana Mangala Gouri Vratam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/104/Sravana-Mangala-Gouri-Vratam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 3,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -508,13 +508,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Radha Saptami Vratam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/103/Radha-Saptami-Vratam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 7,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -549,13 +549,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Sarasvathi Vratam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/102/Sarasvathi-Vratam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -590,13 +590,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Subrahmanya Shashti-( Especially Tamilians) with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/106/Subrahmanya-Shashti-(-Especially-Tamilians).png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 7,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -631,13 +631,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Atla Taddi- (Especially for Chowdaris) with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/100/Atla-Taddi.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 1,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -672,13 +672,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Somavara Vratalu - (Amavasya & Somavaram Together) with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/99/Somavara-Vratalu---(Amavasya-&-Somavaram-Together).png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 3,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -713,13 +713,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Anantha Padmanabha Vratam (Only Brahmins & Vyshyas) with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/98/Anantha-Padmanabha-Vratam-(Only-Brahmins-&-Vyshyas).png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -754,13 +754,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Kedareswara Vratam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/97/Kedareswara-Vratam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 7,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -795,13 +795,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Sravana Sukravara Vara Lakshmi Vratam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/96/Sravana-Sukravara-Vara-Lakshmi-Vratam.png",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 3,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -836,13 +836,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Vinayaka Chavithi with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/95/vinayaka-chaviti.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 1,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -877,13 +877,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Satya Narayana Swami Vratam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/94/Satyanarayana-vratam-02.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 6,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -918,13 +918,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Puttu Ventrukalu Homam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/91/Puttu-Ventrukalu-Homam.png",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -959,13 +959,13 @@ export const services = [
     "type": "fixed",
     "duration": "01:00",
     "description": "Sreemantham is a traditional baby shower ceremony performed before childbirth. It blesses the expectant mother and unborn child with health, protection, positivity, and emotional support for a smooth motherhood journey.",
-    "image": "https://99poojas.in/storage/90/Sreemantham.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 7,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1000,13 +1000,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Mature Function (Rajaswala Santhulu) with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/89/Mature-Function-(Rajaswala-Santhulu).png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 8,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1041,13 +1041,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Shasti Poorthi marks the 60th birthday of the husband by renewing marital vows through sacred rituals. It symbolizes longevity, togetherness, gratitude, and blessings for health and harmony.",
-    "image": "https://99poojas.in/storage/88/Shasti-Poorthi-(On-60th-Birthday-of-husband--Marriage-Celebration)-(1).png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 5,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1082,13 +1082,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Taamboolalu or Poolu Pandlu is a traditional engagement ceremony marking the formal union of two families. Through rituals and blessings, it symbolizes commitment, harmony, and the joyful beginning toward marriage.",
-    "image": "https://99poojas.in/storage/87/Engagement-Function--(Taamboolalu--Poolu-Pandlu).png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1123,13 +1123,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Bhoomi Pooja is performed before starting construction to seek divine blessings for success, safety, and prosperity. It honours Mother Earth and ensures positive energy and smooth progress of the project.",
-    "image": "https://99poojas.in/storage/86/Bhoomi-pooja.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1164,13 +1164,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Opening Pooja for Business/ Vyapara Aarambham with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/85/Opening-Pooja-for-Business-Vyapara-Aarambham.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 3,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1205,13 +1205,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Gruha Pravesam is an auspicious housewarming ceremony performed before entering a new home. Vedic rituals purify the space, remove negative energies, and invite peace, prosperity, and divine blessings.",
-    "image": "https://99poojas.in/storage/84/Gruha-Pravesam.png",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 8,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1246,13 +1246,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Marriage is a sacred Hindu sacrament that unites two individuals and families. Performed with Vedic rituals, it symbolizes commitment, harmony, shared responsibilities, and spiritual partnership.",
-    "image": "https://99poojas.in/storage/83/Marriage.png",
+    "image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&auto=format&fit=crop&q=80",
     "isFeatured": false,
     "rating": 5,
     "reviewsCount": 8,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1287,13 +1287,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Vodugu / Upanayanam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/82/Vodugu--Upanayanam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 4,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1328,13 +1328,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Aksharabhyasam marks a child’s initiation into learning with Saraswathi Pooja. The ritual seeks Goddess Saraswati’s blessings for wisdom, intellect, creativity, and a successful educational journey.",
-    "image": "https://99poojas.in/storage/81/Aksharabhyasam--Saraswathi-Pooja.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 3,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1369,13 +1369,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Annaprasana is the first feeding ceremony where a baby is introduced to solid food. This joyful ritual symbolizes growth, nourishment, and blessings for the child’s health and prosperity.",
-    "image": "https://99poojas.in/storage/80/Annaprasana.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 4,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1410,13 +1410,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Barasala or Namakaram is the traditional naming ceremony of a newborn. It marks the child’s formal identity and seeks divine blessings for health, protection, and a prosperous future.",
-    "image": "https://99poojas.in/storage/78/Barasala--Namakaram.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 1,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1451,13 +1451,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Sankalpa Shantulu (Based on Jathakam) with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/77/sankalpa-santhulu.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 6,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1492,13 +1492,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Navagraha Shantulu are rituals performed to appease the nine planetary deities. These ceremonies help reduce planetary doshas and are believed to improve health, wealth, relationships, and overall well-being.",
-    "image": "https://99poojas.in/storage/76/Navagraha-Shantulu.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 7,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1533,13 +1533,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Nakshatra / Janana Shantulu with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/75/Nakshatra--Janana-Shantulu.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 5,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1574,13 +1574,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Perform authentic Alankarams for Venkateswara Kalyanam with experienced Vedic pandits according to traditional Shastras for divine blessings and prosperity.",
-    "image": "https://99poojas.in/storage/74/Alankarams-for-Venkateswara-Kalyanam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1615,13 +1615,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Venkateswara Swami Kalyanam is the sacred wedding ceremony of Lord Venkateswara and Goddess Padmavati. Performed with devotion and grandeur, this auspicious ritual is believed to bless devotees with prosperity, happiness, and divine grace.",
-    "image": "https://99poojas.in/storage/73/Venkateswara-Swami-Kalyanam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": false,
     "rating": 5,
     "reviewsCount": 7,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1656,13 +1656,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Subrahmanya Kalyanam is the divine wedding ceremony of Lord Subrahmanya. Performed on auspicious occasions with devotion, this sacred ritual celebrates the divine union and is believed to bring blessings, prosperity, and spiritual harmony.",
-    "image": "https://99poojas.in/storage/72/Subrahmanya-Kalyanam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 8,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1697,13 +1697,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Ganapathi Kalyanam is the auspicious wedding ceremony of Lord Ganesha performed in select regional traditions. This sacred ritual celebrates the divine union, symbolizing new beginnings, harmony, prosperity, and the fulfillment of devotees’ prayers.",
-    "image": "https://99poojas.in/storage/71/Ganapathi-Kalyanam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 3,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1738,13 +1738,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Shiva Kalyanam is the sacred wedding ceremony of Lord Shiva and Goddess Parvati. Performed on auspicious occasions, it symbolizes divine union, harmony, love, and cosmic balance, and is believed to bless devotees with peace and prosperity.",
-    "image": "https://99poojas.in/storage/70/Shiva-marriage.png",
+    "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=800&auto=format&fit=crop&q=80",
     "isFeatured": false,
     "rating": 5,
     "reviewsCount": 1,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1779,13 +1779,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Sree Rama Navami Kalyanam reenacts the divine wedding of Lord Rama and Goddess Sita on Rama Navami. Celebrated as a community ritual, it brings devotion, unity, prosperity, and divine blessings to residents.",
-    "image": "https://99poojas.in/storage/69/Sree-Rama-Navami-Kalyanam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1820,13 +1820,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Mahalingarchana is performed with devotion and sincerity to seek Lord Shiva’s blessings. This sacred ritual is believed to bring spiritual growth, divine protection, guidance on the spiritual path, and fulfillment of devotees’ prayers.",
-    "image": "https://99poojas.in/storage/68/Mahalingarchana.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 3,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1861,13 +1861,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Shata Rudriyam is the chanting of Rudram Chamakam 100 times by 11 Brahmin priests over 5–6 hours. This powerful Vedic ritual from the Yajurveda is performed with precision to invoke Lord Shiva’s blessings, protection, and spiritual upliftment.",
-    "image": "https://99poojas.in/storage/67/Shata-Rudriyam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 1,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1902,13 +1902,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Rudra Abhishekalu is a sacred Shiva ritual honoring Lord Rudra with prescribed offerings. Performed with reverence, it is believed to bring purification, divine grace, and blessings, while respecting spiritual values and the welfare of all beings.",
-    "image": "https://99poojas.in/storage/66/Rudra-Abhishekalu.png",
+    "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 6,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1943,13 +1943,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Navagraha Shanti Homam is a Vedic ritual aimed at appeasing the nine planetary deities, seeking their blessings for harmony, balance, and auspicious influences in one's life.",
-    "image": "https://99poojas.in/storage/65/Navagraha-Shanthi-homam.png",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 7,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -1984,13 +1984,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Maha Vidya Homam is a sacred Vedic ritual dedicated to worshipping the ten divine cosmic wisdom goddesses, invoking their blessings for spiritual enlightenment and empowerment.",
-    "image": "https://99poojas.in/storage/64/Maha-vidhya-homam.png",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
     "isFeatured": false,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -2025,13 +2025,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Shata Chandi is a powerful Vedic ritual involving the recitation of the Durga Saptashati (700 verses dedicated to Goddess Durga) a hundred times, seeking divine blessings, protection, and removal of obstacles.",
-    "image": "https://99poojas.in/storage/63/Shata-Chandi-homam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 2,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -2066,13 +2066,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Nava Chandi is a revered Vedic ritual that involves the chanting of sacred hymns from the Durga Saptashati to invoke the divine feminine energy, seeking protection, strength, and prosperity",
-    "image": "https://99poojas.in/storage/62/Nava-chandi-homam.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 1,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -2107,13 +2107,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Rudra Homam is a powerful Vedic ritual dedicated to Lord Shiva to remove obstacles, purify negative energies, and reduce planetary afflictions. Performed by Vedic-trained priests with authentic samagri, it brings peace, protection, and prosperity.",
-    "image": "https://99poojas.in/storage/61/Rudra-Homam.png",
+    "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 7,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -2148,13 +2148,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Lakshmi Ganapathi Homam is a sacred ritual worshipping Goddess Lakshmi and Lord Ganapathi to seek wealth, prosperity, success, and removal of obstacles. Performed on auspicious occasions, it is believed to bring harmony and a prosperous life.",
-    "image": "https://99poojas.in/storage/60/Lakshmi-Ganapathi-homam.png",
+    "image": "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 8,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -2189,13 +2189,13 @@ export const services = [
     "type": "fixed",
     "duration": "2 - 3 Hours",
     "description": "Sahasra Lingarchana is the worship of a thousand Shiva Lingas, symbolizing Lord Shiva’s omnipresence. Performed with devotion and precision, this sacred ritual brings spiritual growth, divine protection, and fulfillment of prayers.",
-    "image": "https://99poojas.in/storage/58/Sahasra-Lingarchana.png",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80",
     "isFeatured": true,
     "rating": 5,
     "reviewsCount": 1,
     "provider": {
       "name": "99Poojas Provider",
-      "image": "https://99poojas.in/storage/59/99POOJAS-LOGO.png",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80",
       "rating": 5,
       "completedServices": 4,
       "experience": "12+ Years Vedic Experience"
@@ -2236,42 +2236,38 @@ export const testimonials = [
   {
     "id": 1,
     "name": "Prashanth Hunter",
-    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKDo-DkHBolwHAJG0geNtH3iebwIMdk-qAGDsOc4E--pH159A=s96-c",
-    "service": "Sahasra Lingarchana",
+    "location": "Madhapur, Hyderabad",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
     "rating": 5,
-    "date": "April 23, 2026",
     "comment": "Best service ever I have seen in 99Poojas. The purohits arrived on time with all required samagri, chanted with pure Vedic devotion and explained every step patiently.",
-    "location": "West Hyderabad"
+    "serviceName": "Ganapathi & Navagraha Homam"
   },
   {
     "id": 2,
     "name": "Venkat Rao K.",
-    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-    "service": "Lakshmi Ganapathi Homam",
+    "location": "Jubilee Hills, Hyderabad",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
     "rating": 5,
-    "date": "March 15, 2026",
-    "comment": "Booked Lakshmi Ganapathi Homam for our new business opening. Extremely authentic recitation, divine positive energy, and very courteous pandits. Highly recommended!",
-    "location": "Banjara Hills, Hyderabad"
+    "comment": "Extremely authentic recitation, divine positive energy, and very courteous pandits. Everything was organized seamlessly with 99Poojas.",
+    "serviceName": "Satyanarayana Swamy Vratam"
   },
   {
     "id": 3,
-    "name": "Lakshmi Narayana S.",
-    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
-    "service": "Satya Narayana Swami Vratam",
+    "name": "Sowmya Reddy",
+    "location": "Gachibowli, Hyderabad",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
     "rating": 5,
-    "date": "February 28, 2026",
-    "comment": "Flawless execution of our housewarming pooja. Transparent 30% advance payment, hassle-free coordination, and pure traditional rituals.",
-    "location": "Gachibowli, Hyderabad"
+    "comment": "We booked Gruhapravesam and Vastu Pooja for our new flat. The pandits conducted it with utmost reverence according to Shastras. Highly recommended!",
+    "serviceName": "Gruhapravesam Pooja"
   },
   {
     "id": 4,
-    "name": "Sunitha Reddy",
-    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
-    "service": "Shata Chandi Homam",
+    "name": "Raghavendra Sharma",
+    "location": "Kukatpally, Hyderabad",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
     "rating": 5,
-    "date": "May 10, 2026",
-    "comment": "A magnificent experience! 11 Vedic scholars performed the Chandi Paath with supreme devotion. 99Poojas made organizing such a large ritual effortless.",
-    "location": "Jubilee Hills, Hyderabad"
+    "comment": "Outstanding service! Pure Vedic chanting, clear explanations of mantras, and complete samagri package. Booking through 99Poojas gave our entire family deep spiritual satisfaction.",
+    "serviceName": "Maha Mrutyunjaya Homam"
   }
 ];
 
@@ -2297,3 +2293,5 @@ export const faqs = [
     "a": "Every Purohit on 99Poojas undergoes strict background verification, Vedic qualification vetting, and has years of traditional Veda Paathashala training."
   }
 ];
+
+

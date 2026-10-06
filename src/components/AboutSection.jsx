@@ -13,7 +13,7 @@ export default function AboutSection({ onExploreServices, onOpenSupport }) {
         <div className="lg:col-span-5 relative">
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800">
             <img
-              src="https://99poojas.in/storage/115/01.jpg"
+              src="https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=800&auto=format&fit=crop&q=80"
               alt="99Poojas Sacred Traditions"
               className="w-full h-[420px] object-cover"
             />

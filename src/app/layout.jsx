@@ -4,7 +4,7 @@ export const metadata = {
   title: '99Poojas - Guiding Your Spiritual Journey with Trusted Services',
   description: 'Book certified Vedic pandits and purohits online in Hyderabad for Homams, Abhishekalu, Kalyanams, Poojas, and traditional ceremonies.',
   icons: {
-    icon: 'https://99poojas.in/storage/4/99POOJAS-LOGO.png',
+    icon: '/images/favicon.svg',
   },
 };
 
